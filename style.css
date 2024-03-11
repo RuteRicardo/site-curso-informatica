@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #12213d;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000000;
+    padding: 5em;
+    color: aliceblue;
+    box-shadow: 2px 2px 8px #222;
+
+}
+.logo{
+    max-width: 80px;
+}
+a {
+    color:#fca311 ;
+    text-decoration: none;
+    padding: 3em;
+    transition: .5s;
+}
+a:hover{
+    color: #354c3c;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 3em; */
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px #222;
+    padding: .9em;
+    margin-bottom: 2em;
+    background-color: #e5e5e5;
+    border-radius: 6px;
+    margin-left: 18em;
+    margin-right: 18em;
+    margin-top: 2em;
+}
+main>div>h2{
+    flex: 100%;
+    text-align: center;
+}
+
+main>div:nth-child(1) {
+    align-self: flex-start;
+    /* margin: 3em; */
+}
+
+main>div:nth-child(2) {
+    align-self: flex-end;
+    /* margin: 3em; */
+
+}
+
+main>div>img {
+    max-width: 38%;
+    padding: 20px;
+}
+
+main>div>p {
+    padding: 2em;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+
+}
+.link{
+    box-shadow: 2px 2px 8px #222;
+    margin: .9em;
+    background-color: #fca311;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link:hover{
+background-color: #e5e5e5;
+border-radius: 8px;
+}
+.link>img{
+    width: 120px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.services>div{
+    background-color: #e5e5e5;
+    margin: .9em;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    box-shadow: 2px 2px 8px #222;
+}
+
+footer a {
+    padding: .9em;
+    text-decoration: none;
+}
