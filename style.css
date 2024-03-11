@@ -28,6 +28,16 @@ a {
     padding: 3em;
     transition: .5s;
 }
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    padding: 0px;
+}
 a:hover{
     color: #354c3c;
     text-decoration: underline;
@@ -53,8 +63,8 @@ main>div {
     margin-bottom: 2em;
     background-color: #e5e5e5;
     border-radius: 6px;
-    margin-left: 18em;
-    margin-right: 18em;
+    /* margin-left: 18em; */
+    /* margin-right: 18em; */
     margin-top: 2em;
 }
 main>div>h2{
@@ -121,6 +131,9 @@ border-radius: 8px;
     margin: .9em;
     padding: 1em;
 }
+.serviços{
+    text-align: center;
+}
 
 footer {
     display: flex;
@@ -134,4 +147,9 @@ footer {
 footer a {
     padding: .9em;
     text-decoration: none;
+}
+@media (max-width:768px) {
+    .serviços>img{
+        max-width: 200px;
+    }
 }
