@@ -50,6 +50,8 @@ main {
     align-items: center;
     justify-content: center;
     /* padding: 3em; */
+    padding-left: 16em;
+    padding-right: 16em;
 }
 
 main>div {
@@ -152,7 +154,7 @@ footer a {
     .serviços>img{
         max-width: 200px;
     }
-      main>div {
-        margin: 1em;
+      main {
+        padding: 1em;
     }
 }
